@@ -75,4 +75,5 @@ resource "aws_instance" "jenkins-server" {   # we are creating a new instance fo
     }
 }
 
+Name = "jenkins-server"  # this will provide name to instance 
 
